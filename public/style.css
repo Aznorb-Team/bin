@@ -1,0 +1,165 @@
+/* all */
+html{
+  scroll-behavior: smooth;
+}
+body {
+  height: 1260px;
+  background: linear-gradient(180deg, #a7cea7 0%, #e30713 100%);
+  position: relative;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/* for metrics */
+
+.metrics{
+  width: 1440px;
+  height: 849px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 20px;
+}
+.metric_div_title{
+  padding-top: 50px;
+  padding-left: 75px;
+}
+.metric_title{
+  color:white;
+  font-size: 36px;
+}
+.metrics__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_div{
+
+}
+.adress{
+  width: 1100px;
+  height: 98px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.20);
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#adress_input{
+  float: left;
+  border-bottom: solid;
+  width: 80%; height: 80%;
+  color: white;
+}
+#accept_input{
+  background-color: #FFF;
+	border-radius: 6px;
+  color: black;
+  width: 10%; 
+  height: 40%;
+  float: right;
+  margin-top: 20px;
+}
+#accept_input:hover{
+  background: #D9262A;
+  color: white;
+}
+.table{
+  width: 100%;
+  margin: 10px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+hr{
+  margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid white;
+  width: 100%;
+}
+
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+  background-color: #FFF;
+	border-radius: 6px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+  
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 35px;
+	line-height: 22px;
+	border-radius: 6px;
+	user-select: none;
+}
+.result_div_title{
+  padding-top: 25px;
+  padding-left: 38px;
+}
+.result_title{
+  color:white;
+  font-size: 28px;
+}
+.result_div_content{
+  padding-top: 25px;
+  padding-left: 48px;
+}
+.result_content{
+  color:white;
+  font-size: 20px;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #D9262A;
+  color: white;
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+	color: #666;
+}
+ 
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+	background: #efefef;
+	color: #666;
+}
+
+.tbl-size { border-collapse: collapse; width: 1100px; 
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.20);}
+ .tbl-size th { text-align: left; color:white; text-align: center;}
+ .tbl-size, .tbl-size td, .tbl-size th { 
+   
+   padding: 5px; height: 45px; 
+   color:white;
+   text-align: center;
+   border-radius: 10px;
+   }
+.tbl-size thead{
+  border-bottom: solid;
+}
+.result{
+  width: 1100px;
+  height: 250px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.20);
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
